@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: chatapp-frontend
-        image: meeraparigi/chatapp-frontend:latest
+        image: meeraparigi/chatapp-frontend
         ports:
         - containerPort: 80
         env:
